@@ -34,8 +34,8 @@ def angle_loss_fn(y_true, y_pred):
 dataset_folder = "../datasets/"
 
 x_img = np.load(dataset_folder + 'dataset_x_img.npy')
-x_head_angles = np.load(dataset_folder + 'dataset_x_head_angles_np.npy')
-y_gaze_angles = np.load(dataset_folder + 'dataset_y_gaze_angles_np.npy')
+x_head_angles = np.load(dataset_folder + 'dataset_x_head_angles.npy')
+y_gaze_angles = np.load(dataset_folder + 'dataset_y_gaze_angles.npy')
 
 x_img_train, x_img_test, x_ha_train, x_ha_test, y_gaze_train, y_gaze_test = train_test_split(x_img, x_head_angles,
                                                                                              y_gaze_angles,
