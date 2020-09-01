@@ -1,0 +1,11 @@
+This file contains links[1] to dataset generated using UnityEyes[2] - a freely available tool for rapid generation of large numbers of variable eye region images[3].
+
+The dataset consists of 3 files in NPY format:
+dataset_x_img.npy - images of synthesised eye regions (36x60x1)
+dataset_x_head_angles.npy - head (camera) rotation angles (radians)
+dataset_y_gaze_angles.npy - eye gaze vectors (radians)
+
+
+[1] https://www.dropbox.com/home/UnityEyes%20Dataset
+[2] https://www.cl.cam.ac.uk/research/rainbow/projects/unityeyes/tutorial.html
+[3] https://doi.org/10.1145/2857491.2857492
