@@ -19,7 +19,7 @@ dataset_y_gaze_angles.npy - eye gaze vectors (radians)
     Proceedings of the IEEE conference on computer vision and pattern recognition, 2015, pp. 4511–4520. 
     [Online]. Available: https://doi.org/10.1109/CVPR.2015.7299081
     
-[3] https://www.dropbox.com/home/UnityEyes%20Dataset
+[3] https://tinyurl.com/UnityEyesDataset
 
 [4] https://www.cl.cam.ac.uk/research/rainbow/projects/unityeyes/tutorial.html
 
